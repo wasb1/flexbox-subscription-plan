@@ -1,0 +1,93 @@
+body {
+    font-family: "Sono", sans-serif;
+    background-color: rgb(159, 148, 148);
+}
+
+li {
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: rgba(7, 0, 0, 0.05);
+    border-radius: 8px;
+    border-width: 0.5;
+    color: #2d0d0d;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Sono", sans-serif;
+    ;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.pricing-container {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 1250px) {
+    .pricing-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1249px) {
+    .pricing-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        height: 100vh;
+
+    }
+}
+
+.pricing-plan {
+    background-color: rgb(200, 200, 22);
+    width: 320px;
+    height: 300px;
+    border: solid black;
+    border-radius: 8px;
+
+
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.plan-price {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.plan-features {
+    list-style: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
